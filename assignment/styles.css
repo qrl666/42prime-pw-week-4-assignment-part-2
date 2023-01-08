@@ -19,4 +19,10 @@
     margin-right: auto;
     width: 50%;
 }
-/*I wanted to center the image, and I thought changing the display to block would make it behave the same as the centering of the .info text. But changing the window makes them shift out of sync.*/
+/*I wanted to center the image, and I thought changing the display to block would make it behave the same as the centering of the .info text. But changing the window makes them shift out of sync. Is it because part of the image is cropped and hidden, but the hidden part is still taking up space?*/
+
+.transport{
+    background-color: darkcyan;
+    color: midnightblue;
+    text-align: center;
+}
