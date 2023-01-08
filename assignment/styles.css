@@ -1,6 +1,7 @@
 .info{
     background-color: coral;
     color: darkorchid;
+    text-align: center;
 }
 
 /*.oops {
@@ -8,6 +9,14 @@
     height: 392px;
     background-position: 80% 20%;
     background-image: url(https://images.immediate.co.uk/production/volatile/sites/21/2019/03/bike_crash-1468595091943-1jedfc1vp3hut-1000-100-5a5ea67.jpg?quality=90&resize=768,574);
-  }*/ 
+  }
   
-  /* This was the first way I figured out how to crop the image, but it did weird things when changing the size of the window. Also, I had to remove the <img> from the HTML, which was in the instructions. What was going wrong here? */
+  This was the first way I figured out how to crop the image, but when shrinking the size of the window, the part of the image that was hidden by the window would disappear when the window was expanded. What was going wrong here?*/
+
+.oops{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*I wanted to center the image, and I thought changing the display to block would make it behave the same as the centering of the .info text. But changing the window makes them shift out of sync.*/
